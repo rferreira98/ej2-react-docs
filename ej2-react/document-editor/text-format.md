@@ -73,7 +73,7 @@ The strikethrough style for selected text can be get or set by using the followi
 //Gets the value for strikethrough formatting of selected text.
 let strikethrough : Strikethrough = documenteditor.selection.characterFormat.strikethrough;
 //Sets strikethrough formatting for selected text.
-documenteditor.selection.characterFormat.strikethrough='Single' | 'Normal';
+documenteditor.selection.characterFormat.strikethrough='SingleStrike' | 'Normal';
 ```
 
 You can toggle the strikethrough style of selected text based on existing value at selection by specifying a value. Refer to the following sample code.
